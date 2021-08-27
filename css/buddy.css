@@ -1,0 +1,31 @@
+h1{
+    width: 20%;
+    background-color: thistle;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+h1:hover{
+    color: purple;
+}
+#buddies{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+}
+.buddy{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(212, 211, 204);
+    color: rgb(16, 78, 212);
+    border: 2px solid rgb(212, 211, 204);
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+#buddies>:hover{
+    color: darkred;
+}
+.buddy>img{
+    border-radius: 4px;
+}
